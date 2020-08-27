@@ -1,5 +1,5 @@
 
-if TIme.now.to_i % 2 == 0
+if TIme.now.to_i.even?
   puts "Even!"
 else
   puts "Odd!"
